@@ -29,7 +29,6 @@ namespace WebApplication1.Controllers
         private IUserService _userService;
         private IMapper _mapper;
         private IWebHostEnvironment _webHostEnvironment;
-
         public CitizenController(ICitizenRepository citizenRepository,
             CitizenPresentation citizenPresentation, IUserService userService, IMapper mapper,
             IWebHostEnvironment webHostEnvironment)
